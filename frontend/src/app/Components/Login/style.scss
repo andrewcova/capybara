@@ -1,0 +1,50 @@
+.overlay-form.overlay-form--login {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  .overlay-form__group:first-of-type {
+    margin-top: 1.5em;
+    margin-bottom: 2em;
+  }
+  .overlay-form__group {
+    display: flex;
+    justify-content: space-between;
+  }
+  .overlay-form__label {
+    font-size: 25px;
+  }
+
+  .overlay-form__input {
+    width: 15em;
+  }
+
+  .overlay__submit {
+    align-self: center;
+    margin: 2em 0 0;
+
+    display: block;
+
+    padding: 0.2em 0.7em;
+    border: none;
+
+    background-color: transparent;
+    color: white;
+
+    font-size: 1.5em;
+
+    cursor: pointer;
+
+    transform: translate(18px, -2px) scale(1);
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0);
+
+    transition: all 0.15s ease-in-out;
+  }
+
+  .overlay__submit:hover,
+  .overlay__submit:focus {
+    outline: none;
+    transform: translate(18px, -2px) scale(1.08);
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.39);
+  }
+}

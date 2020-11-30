@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "Capybara",
+  "description": "chrome extension of Capybara app",
+  "version": "1.0",
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "bookmarks",
+    "cookies"
+  ],
+  "icons": {
+    "16": "icon6.png",
+    "32": "icon6.png",
+    "64": "icon6.png",
+    "128": "icon6.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icon6.png",
+      "32": "icon6.png"
+    },
+    "default_title": "Capybara popup",
+    "default_popup": "popup.html"
+  }
+}
