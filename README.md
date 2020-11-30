@@ -2,7 +2,7 @@
 
 SESSION=your  
 DB_HOST=localhost  
-DB_NAME=self  
+DB_NAME=your
 DB_PORT=27017  
 PORT=3000  
 DB=your  
